@@ -1,0 +1,6 @@
+.pytest_cache
+__pycache__
+.venv
+!tmp/.gitkeep
+!tmp/note/.gitkeep
+tmp/

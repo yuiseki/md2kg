@@ -1,0 +1,22 @@
+[project]
+name = "md2kg"
+version = "0.1.0"
+description = "Convert Markdown documents with WikiLinks to Knowledge Graph"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.2.1",
+    "markdown-it-py>=3.0.0",
+    "mdit-py-plugins>=0.4.2",
+    "pandas>=2.2.3",
+    "pyyaml>=6.0.2",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3.5",
+]
