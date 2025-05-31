@@ -12,6 +12,9 @@ dependencies = [
     "pyyaml>=6.0.2",
 ]
 
+[project.scripts]
+md2kg = "md2kg.cli:app"
+
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
